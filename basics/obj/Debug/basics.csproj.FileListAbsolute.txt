@@ -1,0 +1,12 @@
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\basics.exe.config
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\basics.exe
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\basics.pdb
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\obj\Debug\basics.csprojAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\obj\Debug\basics.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\obj\Debug\basics.exe
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\obj\Debug\basics.pdb
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\EntityFramework.dll
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\EntityFramework.xml
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\John\Documents\Visual Studio 2017\Projects\basics\basics\obj\Debug\basics.csproj.CopyComplete
