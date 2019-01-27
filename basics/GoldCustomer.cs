@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace basics
 {
-    class GoldCustomer:Customer,IDatabase //the Add method is separate from the class definition (LSP)
+    //LSP - Liskov substitution principle
+    class GoldCustomer :Customer,IDatabase //the Add method is separate from the class definition (LSP)
     {
         private ILogger _logger;
 
@@ -16,14 +17,18 @@ namespace basics
 
         public void Add()
         {
-            try            {
+            try
+            {
                 throw new Exception();
-            }            catch (Exception ex)            {
+            }
+            catch (Exception ex)
+            {
                 //DIP
                 _logger.log(ex);
                 //ILogger l = new FileLogger();
                 //FileLogger f = new FileLogger();
-                //l.log(ex);            }
+                //l.log(ex);
+            }
         }
 
         public override double GetDiscount(double total)

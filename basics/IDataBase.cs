@@ -9,6 +9,7 @@ namespace basics
     interface IDatabase
     {
         void Add();
+        //ISP - Interface segregation principle
         //void Read();  adding this would break existing clients. Apply ISP and add new interface for Read functionality
     }
 }

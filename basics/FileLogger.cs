@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace basics
 {
+    //SRP - A class should have one, and only one, reason to change
     public class FileLogger:ILogger
     {
         public void log(Exception ex)

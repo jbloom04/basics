@@ -10,14 +10,12 @@ namespace basics
     {
         static void Main(string[] args)
         {
-
-            Customer cust = new Customer() { age = 3 };
-            //DIP - Inverted dependency - supply it the dependency
+            //DIP - Dependency inversion principle
             ILogger l = new DatabaseLogger();
-            GoldCustomer jon = new GoldCustomer(l) { age = 36 };
-
-
+            //OCP - Open Closed Principle - Extension should be preferred over modification
+            GoldCustomer jon = new GoldCustomer(l) { age = 36 };//dependency injection
             SilverCustomer j = new SilverCustomer() { age = 36 };
+
             jon.GetDiscount(100);
 
             jon.Add();
