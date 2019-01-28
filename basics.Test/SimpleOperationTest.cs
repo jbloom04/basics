@@ -21,6 +21,19 @@ namespace basics.Test
         }
 
         [TestMethod]
+        public void TestBlackScholes()//naming convention - arrange,act,assert
+        {
+            //Arrange
+            BlackScholes bs = new BlackScholes();
+            Random r = new Random();
+            int x = r.Next();
+            //Act
+            bs.PriceOption(x);
+            //Assert
+            Assert.AreEqual(x*5, bs.price);
+        }
+
+        [TestMethod]
         public void Operate_DoSubtract_ReturnsSubtraction()
         {
             //Arrange

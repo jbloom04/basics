@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlackScholes.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="DatabaseLogger.cs" />
     <Compile Include="FileLogger.cs" />
